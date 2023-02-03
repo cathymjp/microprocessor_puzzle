@@ -1,5 +1,5 @@
-# BounceBall
-Number puzzle game using EBIMU sensors
+# Number Puzzle
+Number puzzle game using an EBIMU controller
 
 ## Environment
 - 2020.3 ~ 2020.6 (3 months)
