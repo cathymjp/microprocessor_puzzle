@@ -2,7 +2,7 @@
 Number puzzle game using an EBIMU controller
 
 ## Environment
-- 2020.3 ~ 2020.6 (3 months)
+- 2019.4 ~ 2019.6 (3 months)
 - Python3
 - pygame
 - Microprocessor
