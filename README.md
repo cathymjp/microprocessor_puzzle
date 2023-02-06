@@ -11,7 +11,6 @@ Number puzzle game using an EBIMU controller
 ## Microprocessor Tools
 - EBIMU-9DOFV4 (3-axis gyroscope, 3-axis acceleration sensor, 3-axis accelerometer sensor)
   - pitch, yaw, roll
-  - x, y, z
 - USB2UART
 - Serial 
 - myCortex-STM32F4
@@ -19,9 +18,9 @@ Number puzzle game using an EBIMU controller
 
 
 ## Description
-- Use EBIMU controller to sovle the number puzzle by moving the sensor in four directions. Starting at the location of the controller as the game starts, the program reads yaw and pitch movement. After holding the controller in stop motion for 3 seconds, the game moves the number according to the movmenet of the controller. 
-1. Start the gmae
-2. Hold the device in still position
-3. Make a move to solve to puzzle
-4. wait for 3 seconds
-5. Repeat steps 3 and 4 until the puzzle is solved
+- Use the EBIMU controller to sovle the number puzzle by moving the controller in four directions. Starting at a stable position, the program reads roll and pitch movements. When the controller is in stop motion for 0.5 seconds, the game moves the number tile according to the movmenet of the controller.
+
+<img src="https://user-images.githubusercontent.com/45842934/216951906-25a6e581-ebff-4b18-aa4d-0e4285f01cda.png" height=300 />
+
+
+Code Reference: https://itsourcecode.com/free-projects/python-projects/puzzle-game-in-python-with-source-code/
