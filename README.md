@@ -18,7 +18,7 @@ Number puzzle game using an EBIMU controller
 
 
 ## Description
-- Use the EBIMU controller to sovle the number puzzle by moving the controller in four directions. Starting at a stable position, the program reads roll and pitch movements. When the controller is in stop motion for 0.5 seconds, the game moves the number tile according to the movmenet of the controller.
+- Move the EBIMU controller in four directions to sovle the number puzzle. Starting from a stable position, the program reads roll and pitch movement. When the controller is in stop motion for 0.5 seconds, the game moves the number tiles according to the movement of the controller.
 
 <img src="https://user-images.githubusercontent.com/45842934/216951906-25a6e581-ebff-4b18-aa4d-0e4285f01cda.png" height=300 />
 
